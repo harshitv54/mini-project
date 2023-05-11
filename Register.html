@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Register</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#home"><h1><span>C</span>ES <span>2</span>023</h1></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="Index.html" >Home</a></li>
+            <li><a href="Products.html" >Products</a></li>
+            <li><a href="Speakers.html" >Speakers</a></li>
+            <li><a href="About.html" >About</a></li>
+            <li><a href="Contact.html" >Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  </header>
+  <!-- End Header -->
+  
+  <!-- Register -->
+  <div style="background-image: linear-gradient(to top right, #A534D1, #2A9CD1);"
+  <section id="register">
+  <div class="register container">
+  <div class="register-wrap">
+        
+            <form method="get" onsubmit="return validate()">
+            
+                <h1>Register For <span>C</span>ES <span>2</span>023</h1>
+                <input type="text" id="fname" placeholder="First Name" >
+                <input type="text" id="lname" placeholder="Last Name" >
+                <input type="email" id="email" placeholder="Email" >
+				<label for="country">Country :</label>&ensp;<select class="list" id="country" name="dropdown" >
+				 <option disabled hidden selected>Select</option>
+				 <option value="India">India</option>
+				 <option value="America">America</option>
+				 <option value="Australia">Australia</option>
+				 <option value="New Zealand">New Zealand</option>
+				 <option value="Canada">Canada</option>
+				 <option value="Europe">Europe</option>
+				 <option value="China">China</option>
+				</select></p>
+                <label for="attendee">Attending As :</label>&ensp;<select class="list2" id="attendee" name="dropdown" >
+				 <option disabled hidden selected>Select</option>
+				 <option value="Industry">Industry attendee</option>
+				 <option value="Media">Media</option>
+				 <option value="Exhibhitor">Exhibitor</option>
+				 <option value="Listener">Listener</option>
+				</select></p>
+                <input type="submit" class="cta" value="Register">
+            
+            </form>
+  </div>
+  </div>
+  </section>
+  
+  <footer>
+  <section id="footer">
+    <div class="footer container">
+      <div><h1><span>C</span>ES <span>2</span>023</h1></div>
+      <h2>The Biggest Tech Exhibition.</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/CES"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/CES"><img src="https://img.icons8.com/bubbles/100/000000/instagram.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/ces"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="http://www.youtube.com/user/cesonthetube"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png"/></a>
+        </div>
+      </div>
+	  <div class="developer">
+	   <h3><span>Developed By :</span> Harshit Verma</h3>
+	   <h3><span>Roll No. :</span> 2055991518</h3>
+      </div>
+    </div>
+  </section>
+  </footer>
+  </div>
+  <script src="./javascript.js"></script>
+  </body>
+  </html>
